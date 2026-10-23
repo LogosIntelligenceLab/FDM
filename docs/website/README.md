@@ -18,7 +18,7 @@ For video chapter seeking during playback, use a preview server with HTTP byte-r
 
 ## GitHub Pages
 
-The project URL is https://logosroboticsgroup.github.io/FDM/.
+The project URL is https://logosintelligencelab.github.io/FDM/.
 
 1. Include `docs/website/index.html`, the JavaScript files (`app.js`, `results.js`, `real-world.js`), the stylesheets (`styles.css`, `diagrams.css`, `results.css`, `real-world.css`), **all of `docs/website/assets/`**, and `.github/workflows/project-page.yml` in the repository.
 2. In repository **Settings → Pages → Build and deployment**, select **GitHub Actions**.

@@ -21,8 +21,8 @@ authors:
     given-names: Xiatian
   - family-names: Zhang
     given-names: Li
-repository-code: 'https://github.com/LogosRoboticsGroup/FDM'
-url: 'https://logosroboticsgroup.github.io/FDM/'
+repository-code: 'https://github.com/LogosIntelligenceLab/FDM'
+url: 'https://logosintelligencelab.github.io/FDM/'
 preferred-citation:
   type: article
   title: Forward Dynamics Models

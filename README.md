@@ -4,7 +4,7 @@
 
 **Official implementation of “Forward Dynamics Models” (FDM).**
 
-[📄 Paper](https://arxiv.org/abs/2610.13117) · [🌐 Project page](https://logosroboticsgroup.github.io/FDM/) · [中文](README-zh.md)
+[📄 Paper](https://arxiv.org/abs/2610.13117) · [🌐 Project page](https://logosintelligencelab.github.io/FDM/) · [中文](README-zh.md)
 
 [Overview](#overview) · [Results](#results-reported-in-the-paper) · [Installation](#installation) · [Training](#training) · [Evaluation](#evaluation-and-inference)
 
@@ -58,7 +58,7 @@ Real-world experiments use a dual-arm ARX-X5 robot on five manipulation tasks. T
 Run commands from the repository root. The documented environment uses Linux, Python 3.10, PyTorch 2.7.0, and CUDA 12.8.
 
 ```bash
-git clone https://github.com/LogosRoboticsGroup/FDM.git
+git clone https://github.com/LogosIntelligenceLab/FDM.git
 cd FDM
 conda create -n fdm python=3.10 -y
 conda activate fdm

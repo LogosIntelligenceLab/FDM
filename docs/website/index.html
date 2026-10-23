@@ -9,7 +9,7 @@
   <meta property="og:title" content="Forward Dynamics Models">
   <meta property="og:description" content="Action-to-future learning for robotic manipulation.">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://logosroboticsgroup.github.io/FDM/assets/demo-poster.webp">
+  <meta property="og:image" content="https://logosintelligencelab.github.io/FDM/assets/demo-poster.webp">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
   <link rel="preload" href="assets/fonts/libre-caslon-display.ttf" as="font" type="font/ttf" crossorigin>
@@ -20,12 +20,13 @@
   <script src="app.js" defer></script>
   <script src="results.js" defer></script>
   <script src="real-world.js" defer></script>
+  <link rel="canonical" href="https://logosintelligencelab.github.io/FDM/">
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header wrap">
   <a class="wordmark" href="#main" aria-label="FDM home"><svg viewBox="0 0 40 32" aria-hidden="true"><path d="M4 24V8h12v16h12V8h8M16 16h12"/></svg>FDM<span>Robot learning</span></a>
-  <nav aria-label="Main navigation"><a href="#method">Method</a><a href="#real-world">Experiments</a><a href="https://github.com/LogosRoboticsGroup/FDM" class="repo-link">Code <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></nav>
+  <nav aria-label="Main navigation"><a href="#method">Method</a><a href="#real-world">Experiments</a><a href="https://github.com/LogosIntelligenceLab/FDM" class="repo-link">Code <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></nav>
 </header>
 <main id="main">
   <section class="cover" aria-labelledby="page-title">
@@ -41,7 +42,7 @@
       <div class="cover-links">
         <a class="button cover-paper" href="https://arxiv.org/abs/2610.13117">Read the paper <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
         <a class="button cover-code" href="https://arxiv.org/pdf/2610.13117">PDF <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a>
-        <a class="button cover-code" href="https://github.com/LogosRoboticsGroup/FDM">Code <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-4 16"/></svg></a>
+        <a class="button cover-code" href="https://github.com/LogosIntelligenceLab/FDM">Code <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-13-4 16"/></svg></a>
       </div>
     </div>
     <div class="cover-bottom wrap">
@@ -289,7 +290,7 @@
           <figcaption><span id="pipeline-detail-caption">Action features condition future prediction; the future loss supervises those features.</span><a href="assets/pipeline.pdf">Original figure · PDF <span aria-hidden="true">↗</span></a></figcaption>
         </figure>
       </details>
-      <div class="backbones"><h3>One principle.<br>Two backbone families.</h3><div><h4>FDM w/ VLM</h4><p>A π₀.₅ / PaliGemma policy with direct regression of future-image latents. One future image per camera view, supervised with MSE.</p><a href="https://github.com/LogosRoboticsGroup/FDM/blob/HEAD/FDM/model/framework/VLM4A/Pi05_causal.py">VLM implementation <span aria-hidden="true">↗</span></a></div><div><h4>FDM w/ VGM</h4><p>A Wan2.2 video backbone with flow matching on future-video latents. Current-observation processing remains in the action path.</p><a href="https://github.com/LogosRoboticsGroup/FDM/blob/HEAD/FDM/model/framework/WM4A/WanMoT_causal.py">VGM implementation <span aria-hidden="true">↗</span></a></div></div>
+      <div class="backbones"><h3>One principle.<br>Two backbone families.</h3><div><h4>FDM w/ VLM</h4><p>A π₀.₅ / PaliGemma policy with direct regression of future-image latents. One future image per camera view, supervised with MSE.</p><a href="https://github.com/LogosIntelligenceLab/FDM/blob/HEAD/FDM/model/framework/VLM4A/Pi05_causal.py">VLM implementation <span aria-hidden="true">↗</span></a></div><div><h4>FDM w/ VGM</h4><p>A Wan2.2 video backbone with flow matching on future-video latents. Current-observation processing remains in the action path.</p><a href="https://github.com/LogosIntelligenceLab/FDM/blob/HEAD/FDM/model/framework/WM4A/WanMoT_causal.py">VGM implementation <span aria-hidden="true">↗</span></a></div></div>
     </div>
   </section>
 
@@ -527,7 +528,7 @@
     <p class="qa-source">Condensed from the paper’s experimental questions Q1–Q5. <a href="https://arxiv.org/pdf/2610.13117#page=6">Read the full experiments</a>.</p>
   </section>
 
-  <section class="section wrap citation-section" id="citation" aria-labelledby="citation-title"><div><h2 id="citation-title">Build on FDM.</h2><p>Code, training configurations, and evaluation instructions are available in the repository.</p><a class="button primary" href="https://github.com/LogosRoboticsGroup/FDM">View on GitHub <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div><div class="citation-block"><div class="citation-heading"><h3>Citation</h3><button type="button" id="copy-citation">Copy BibTeX</button></div><pre id="bibtex">@misc{ma2026forward,
+  <section class="section wrap citation-section" id="citation" aria-labelledby="citation-title"><div><h2 id="citation-title">Build on FDM.</h2><p>Code, training configurations, and evaluation instructions are available in the repository.</p><a class="button primary" href="https://github.com/LogosIntelligenceLab/FDM">View on GitHub <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 18 18 6M6 6h12v12"/></svg></a></div><div class="citation-block"><div class="citation-heading"><h3>Citation</h3><button type="button" id="copy-citation">Copy BibTeX</button></div><pre id="bibtex">@misc{ma2026forward,
   title = {Forward Dynamics Models},
   author = {Ma, Zipei and Jiang, Junzhe and
     Zhang, Jiahui and Zhang, Juntong and
@@ -541,6 +542,6 @@
   url = {https://arxiv.org/abs/2610.13117}
 }</pre><p class="copy-status" id="copy-status" role="status"></p></div></section>
 </main>
-<footer class="site-footer wrap"><a class="wordmark" href="#main">FDM</a><p>Forward Dynamics Models</p><a href="https://github.com/LogosRoboticsGroup/FDM/blob/HEAD/LICENSE">License</a><a href="#main">Back to top <span aria-hidden="true">↑</span></a></footer>
+<footer class="site-footer wrap"><a class="wordmark" href="#main">FDM</a><p>Forward Dynamics Models</p><a href="https://github.com/LogosIntelligenceLab/FDM/blob/HEAD/LICENSE">License</a><a href="#main">Back to top <span aria-hidden="true">↑</span></a></footer>
 </body>
 </html>

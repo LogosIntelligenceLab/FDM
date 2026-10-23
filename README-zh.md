@@ -4,7 +4,7 @@
 
 **论文《Forward Dynamics Models》（FDM）的官方实现。**
 
-[📄 论文](https://arxiv.org/abs/2610.13117) · [🌐 项目主页](https://logosroboticsgroup.github.io/FDM/) · [English](README.md)
+[📄 论文](https://arxiv.org/abs/2610.13117) · [🌐 项目主页](https://logosintelligencelab.github.io/FDM/) · [English](README.md)
 
 [概述](#overview) · [论文结果](#results-reported-in-the-paper) · [安装](#installation) · [训练](#training) · [评测](#evaluation-and-inference)
 
@@ -58,7 +58,7 @@ FDM 通过**从动作到未来的学习（action-to-future learning）**来学�
 在仓库根目录执行命令。本文档使用的环境为 Linux、Python 3.10、PyTorch 2.7.0 和 CUDA 12.8。
 
 ```bash
-git clone https://github.com/LogosRoboticsGroup/FDM.git
+git clone https://github.com/LogosIntelligenceLab/FDM.git
 cd FDM
 conda create -n fdm python=3.10 -y
 conda activate fdm
