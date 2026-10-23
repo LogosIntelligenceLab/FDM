@@ -77,7 +77,7 @@ Install external editable source dependencies from the repository parent directo
 
 Dual-Piper `host_ik` uses conda-forge Pinocchio for bounded-iteration DLS. CasADi/IPOPT remains available only
 for the legacy optimizer validation tests. Install the pinned compatible builds from
-[`examples/Piper/environment.piper-ik.yml`](../examples/Piper/environment.piper-ik.yml) into the existing
+`examples/Piper/environment.piper-ik.yml` (not included in this checkout; obtain the matching manifest before running the commands below) into the existing
 environment, running from the repository root:
 
 ```bash

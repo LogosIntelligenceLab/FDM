@@ -53,4 +53,4 @@ Images are RGB arrays in the camera order used during training. State and action
 
 For chunk execution and asynchronous inference, use [M1Inference](../deployment/model_server/inferencer.py), as used by the current [LIBERO evaluator](LIBERO/eval_files/eval_libero.py). It manages the pending action queue; reset it at episode boundaries. Pi05 RTC additionally sends the remaining action prefix and its delay.
 
-Environment adapters remain responsible for camera acquisition, robot/simulator action conventions, timing, and reset behavior. Follow the [LIBERO](LIBERO/README.md), [RoboTwin](Robotwin/README.md), [RoboCasa365](Robocasa_365/README.md), or relevant robot guide for the full loop.
+Environment adapters remain responsible for camera acquisition, robot/simulator action conventions, timing, and reset behavior. Follow the [LIBERO](LIBERO/README.md), [RoboTwin](Robotwin/README.md), RoboCasa365 (guide not included in this checkout), or relevant robot guide for the full loop.

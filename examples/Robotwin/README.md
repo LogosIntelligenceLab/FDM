@@ -270,7 +270,7 @@ The model is trained using the official **RobotWin 2.0 dataset**.
 
 # WanMoTJoint Training
 
-[train_WanMoTJoint.sh](train_files/train_WanMoTJoint.sh) follows the structure of
+The `train_files/train_WanMoTJoint.sh` launcher is not included in this checkout. The configuration described below follows the structure of
 `scripts/vla/train_WanMoTJoint.sh` and defaults to `robotwin_all`. It uses
 DeepSpeed ZeRO-2, 14-dimensional absolute actions and state, z-score normalization,
 240×320 camera inputs and the 384×320 RoboTwin canvas. The default action horizon
