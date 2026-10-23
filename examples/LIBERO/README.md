@@ -104,7 +104,7 @@ assets between environments when comparing results.
 ## ⬇️ 0. Download Checkpoints
 
 
-The starVLA authors provide a collection of pretrained checkpoints on Hugging Face to make community evaluation easier: [🤗 starVLA/bench-libero](https://huggingface.co/collections/starVLA/bench-libero). Their corresponding results on LIBERO are summarized in the table below.
+The starVLA authors provide a collection of pretrained checkpoints on Hugging Face to make community evaluation easier: [🤗 starVLA/bench-libero](https://huggingface.co/collections/StarVLA/libero-6901bb79e423f8492084bf92). Their corresponding results on LIBERO are summarized in the table below.
 
 ### 📊 Experimental Results
 
