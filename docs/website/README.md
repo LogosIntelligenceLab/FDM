@@ -30,7 +30,7 @@ The workflow uploads only the website and prepared assets. Raw recordings, Power
 ## Sources and editorial decisions
 
 - Method, numerical results and figures: supplied `ICLR27_Forwar_Dynamics_Models.pdf` and figure PDFs in the matching ZIP.
-- Public title: **Forward Dynamics Models**, matching the paper. All nine authors and four affiliations appear under the title on the opening cover; author profile links are preserved.
+- Public title: **Forward Dynamics Models**, matching the paper. All nine authors and five affiliations appear under the title on the opening cover; author profile links are preserved.
 - Authors and institutions: repository README and manuscript.
 - `gift/` contains the box-packing-and-closing experiment.
 - Success rates are manuscript results, not newly measured results from this release. A clip's duration is not inference latency.
