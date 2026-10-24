@@ -188,7 +188,9 @@ deployment/                                # Policy serving and robot deployment
 
 <a id="citation"></a>
 
-## 📖 Citation
+## 📖 BibTex
+
+If you find our repository useful, please consider giving it a star ⭐️ and citing our paper in your work:
 
 ```bibtex
 @misc{ma2026forward,

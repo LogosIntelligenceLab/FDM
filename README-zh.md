@@ -188,7 +188,9 @@ deployment/                                # 策略服务与机器人部署
 
 <a id="citation"></a>
 
-## 📖 引用
+## 📖 BibTex
+
+如果您觉得我们的仓库有用，欢迎给我们一个 star ⭐️，并在您的工作中引用我们的论文：
 
 ```bibtex
 @misc{ma2026forward,
